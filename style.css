@@ -117,4 +117,23 @@ section {
 
 .home-text span {
   font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.home-text h1 {
+  font-size: 3.7rem;
+}
+
+.home-text h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.home-text p {
+  margin: 1rem 0 2rem;
+}
+
+.btn {
+  display: inline-block;
+  
 }

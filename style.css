@@ -99,5 +99,22 @@ section {
 }
 
 .home {
-  
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr;
+}
+
+.home-img {
+  order: 3;
+}
+
+.home-img img {
+  width: 100%;
+}
+
+.home-text span {
+  font-size: 1.7rem;
 }

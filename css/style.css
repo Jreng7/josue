@@ -3,6 +3,8 @@
 * {
   margin: 0;
   padding: 0;
+  border: none;
+  outline: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-padding-top: 1rem;

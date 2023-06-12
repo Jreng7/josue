@@ -12,10 +12,22 @@
 
 :root {
   font-family: 'Poppins', sans-serif;
+
+  --bg-color: #fdfdfd;
+  --text-color: #333;
+  --main-color: #754ef9;
+  --white-color: #fefefe;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
-  
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 ul {
@@ -25,4 +37,17 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 10%;
+  background: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

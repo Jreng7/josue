@@ -49,5 +49,34 @@ header {
   background: yellowgreen;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  z-index: 100;
+}
+
+header .logo {
+  font-size: 2.7rem;
+  color: var(--main-color);
+  font-weight: 700;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--white-color);
+  margin-right: 3.5rem;
+}
+
+nav ul li a.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: .2rem;
+  background: var(--white-color);
 }

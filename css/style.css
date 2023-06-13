@@ -106,11 +106,14 @@ section {
   font-size: 3.2rem;
   font-weight: 700;
   line-height: .3rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
 }
 
 .home-content h1 {
   font-size: 5.6rem;
   font-weight: 700;
+  margin-bottom: 0.3rem;
 }
 
 .home-content p {
@@ -141,12 +144,13 @@ section {
   display: inline-block;
   padding: 1.2rem 2.8rem;
   background: var(--main-color);
-  border-radius: 0.6rem;
+  border-radius: 0.7rem;
   box-shadow: 0 0.2rem 0.5rem var(--shadow-color);
   font-size: 1.6rem;
   color: var(--white-color);
   letter-spacing: 0.1rem;
   font-weight: 500;
+  border: 0.2rem solid;
   transition: 0.5s ease;
 }
 

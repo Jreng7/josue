@@ -1,5 +1,5 @@
 body {
-  
+
   /*
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -8,5 +8,6 @@ body {
 
 
   /* background: 1) image 2) url() 3) repeat 4) position/size*/
+  /* Atalho = shorthands = propriedades abreviadas.*/
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }

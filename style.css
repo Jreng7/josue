@@ -9,8 +9,6 @@ html {
 }
 
 body {
-  height: 100vh;
-  overflow: hidden;
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem; /* All body has 16px */
   color: white;
@@ -39,6 +37,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 80rem;
+  
   padding: 3rem 0 0;
 }
 
@@ -68,6 +70,7 @@ header .logo {
 #container {
   width: 36rem;
   margin: 5rem auto 0;
+  padding: 0 2.4rem;
   /* 5.6rem = em cima | auto = nas laterais | 0 = embaixo */
 }
 
@@ -100,14 +103,14 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.6rem 2rem;
+  padding: 1.7rem 2rem;
   background: rgba(255, 255, 255, 0.1);
   border: 0.14rem solid rgba(255, 255, 255, 0.5);
   border-radius: 0.8rem;
   backdrop-filter: blur(0.5rem);
   -webkit-backdrop-filter: blur(0.5rem);
   font-weight: 500;
-  transition: background 0.5s;
+  transition: background 0.3s;
 }
 
 /* pseudo-selector */
@@ -118,6 +121,5 @@ nav ul li a:hover {
 
 footer {
   text-align: center;
-  margin: 4rem 0 0;
-
+  margin: 7rem 0 0 0;
 }

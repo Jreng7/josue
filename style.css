@@ -11,6 +11,7 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem; /* All body has 16px */
+  color: white;
   /*
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -35,4 +36,10 @@ body {
 
 #profile img{
   width: 11.2rem;
+  border-radius: 50%;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 2.4rem;
 }

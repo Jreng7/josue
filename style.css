@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   font-size: 1.6rem; /* All body has 16px */
   /*
   background-image: url(./assets/bg-mobile.jpg);
@@ -24,7 +25,14 @@ body {
 
 #container {
   width: 36rem;
-  height: 71.2rem;
   border: 0.1rem solid red;
-  margin: 0 auto;
+  margin: auto;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img{
+  width: 11.2rem;
 }

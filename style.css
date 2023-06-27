@@ -55,7 +55,7 @@ header .button {
   transition: background 0.5s;
 }
 
-header button:hover{
+header .button:hover{
   background-color: white;
   color: rgba(80, 226, 80, 0.911);
 }
@@ -118,6 +118,6 @@ nav ul li a:hover {
 
 footer {
   text-align: center;
-  margin-top: 2rem;
-  padding: 1.5rem;
+  margin: 4rem 0 0;
+
 }

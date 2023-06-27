@@ -39,13 +39,35 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 1px solid rgba(155, 155, 155, 0.39);
-  padding: 2.2rem 0;
+  padding: 2.3rem 0;
+}
+
+header button {
+  font-family: 'Inter', sans-serif;
+  padding: 1.2rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  border: 1px solid rgba(80, 226, 80, 0.911);
+  background-color: rgba(80, 226, 80, 0.911);
+  transition: background 0.5s;
+}
+
+header button:hover{
+  background-color: white;
+  color: rgba(80, 226, 80, 0.911);
+}
+
+header .logo {
+  font-size: 2.7rem;
+  font-weight: 700;
 }
 
 #container {
   width: 36rem;
-  margin: 5.6rem auto 0;
+  margin: 5rem auto 0;
   /* 5.6rem = em cima | auto = nas laterais | 0 = embaixo */
 }
 

@@ -1,5 +1,10 @@
-body {
 
+html {
+  font-size: 62.5%; /* 1rem = 10px*/
+}
+
+body {
+  font-size: 1.6rem; /* All body has 16px */
   /*
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -10,4 +15,9 @@ body {
   /* background: 1) image 2) url() 3) repeat 4) position/size*/
   /* Atalho = shorthands = propriedades abreviadas.*/
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+#container {
+  width: 36rem;
+  height: 71.2rem;
 }

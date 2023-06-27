@@ -24,22 +24,37 @@ body {
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 #container {
   width: 36rem;
-  border: 0.1rem solid red;
-  margin: auto;
+  margin: 5.6rem auto 0;
+  border: 2px solid rgba(220, 220, 220, 0.377);
+  box-shadow: rgba(166, 166, 172, 0.438) 0px 1px 0px, rgba(110, 133, 148, 0.363) 0px 0px 8px;
+  border-radius: 5rem 0;
 }
 
 #profile {
   text-align: center;
+  padding: 2.4rem;
 }
 
 #profile img{
-  width: 11.2rem;
+  width: 14rem;
+  border: 3px solid gainsboro;
   border-radius: 50%;
+  box-shadow: rgba(179, 179, 179, 0.349) 0px 3px 6px, rgba(124, 124, 124, 0.418) 0px 3px 6px;
 }
 
 #profile p {
   font-weight: 500;
+  font-size: 1.7rem;
   line-height: 2.4rem;
+  margin-top: 1rem;
 }

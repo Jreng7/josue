@@ -9,6 +9,8 @@ html {
 }
 
 body {
+  height: 100vh;
+  overflow: hidden;
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem; /* All body has 16px */
   color: white;
@@ -33,6 +35,14 @@ a{
   color: inherit;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.39);
+  padding: 2.2rem 0;
+}
+
 #container {
   width: 36rem;
   margin: 5.6rem auto 0;
@@ -55,7 +65,7 @@ a{
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  margin-top: 1rem;
+  margin: 1rem auto 0.3rem;
 }
 
 nav ul {
@@ -68,17 +78,24 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.7rem 2rem;
+  padding: 1.6rem 2rem;
   background: rgba(255, 255, 255, 0.1);
-  border: 0.1rem solid rgba(255, 255, 255, 0.5);
+  border: 0.14rem solid rgba(255, 255, 255, 0.5);
   border-radius: 0.8rem;
   backdrop-filter: blur(0.5rem);
   -webkit-backdrop-filter: blur(0.5rem);
   font-weight: 500;
+  transition: background 0.5s;
 }
 
 /* pseudo-selector */
 nav ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
-  border: 0.17rem solid white;
+  border: 0.187rem solid white;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
 }

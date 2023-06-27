@@ -39,10 +39,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 2.3rem 0;
+  padding: 3rem 0 0;
 }
 
-header button {
+header .button {
   font-family: 'Inter', sans-serif;
   padding: 1.2rem 1.5rem;
   border: none;
@@ -87,7 +87,7 @@ header .logo {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  margin: 1rem auto 0.3rem;
+  margin: 1.3rem auto 0.4rem;
 }
 
 nav ul {

@@ -74,4 +74,11 @@ nav ul li a {
   border-radius: 0.8rem;
   backdrop-filter: blur(0.5rem);
   -webkit-backdrop-filter: blur(0.5rem);
+  font-weight: 500;
+}
+
+/* pseudo-selector */
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 0.17rem solid white;
 }

@@ -8,11 +8,19 @@ html {
   font-size: 62.5%; /* 1rem = 10px*/
 }
 
+:root {
+  --text-color: white;
+}
+
+.light {
+
+}
+
 body {
   height: 100vh;
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem; /* All body has 16px */
-  color: white;
+  color: var(--text-color);
   /*
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -48,7 +56,7 @@ header .button {
   border-radius: 0.5rem;
   font-size: 1.4rem;
   font-weight: 500;
-  color: white;
+  color: var(--text-color);
   border: 1px solid rgba(80, 226, 80, 0.911);
   background-color: rgba(80, 226, 80, 0.911);
   transition: background 0.5s;
@@ -114,7 +122,7 @@ nav ul li a {
 /* pseudo-selector */
 nav ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
-  border: 0.187rem solid white;
+  border: 0.187rem solid var(--text-color);
 }
 
 .social {

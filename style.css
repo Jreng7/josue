@@ -119,6 +119,18 @@ nav ul li a:hover {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 4rem 0 0 0;
+}
+
+footer small{
+  display: flex;
+  align-items: center;
+}
+
+footer small .heart{
+  font-size: 1.59rem;
+  margin: 0 0.3rem;
 }

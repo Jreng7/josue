@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  height: 100vh;
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem; /* All body has 16px */
   color: white;
@@ -125,6 +126,7 @@ nav ul li a:hover {
   justify-content: center;
   gap: 0.8rem;
   padding: 2rem 0;
+  margin-bottom: 0.4rem;
   font-size: 2.5rem;
 }
 

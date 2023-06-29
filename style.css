@@ -111,14 +111,24 @@ header .logo {
   margin: 1.3rem auto 0.2rem;
 }
 
+#switch {
+  margin: 0.4rem auto 1.57rem;
+  width: 6.4rem;
+  position: relative;
+}
+
 #switch button {
   width: 3.2rem;
   height: 3.2rem;
   border: 0;
   border-radius: 50%;
-
+  cursor: pointer;
   /* background: 1) cor 2) url() 3) repeat 4) position/size*/
   background: white var(--switch-bg-url) no-repeat center;
+  top: 50%;
+  position: absolute; 
+  z-index: 1;
+  transform: translateY(-50%);
 }
 
 #switch span {

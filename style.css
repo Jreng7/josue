@@ -10,10 +10,20 @@ html {
 
 :root {
   --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --hightlight-color: rbga(255, 255, 255, 0.2);
 }
 
-.light {
-
+#light {
+  --text-color: black;
+  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --hightlight-color: rbga(0, 0, 0, 0.1);
 }
 
 body {
@@ -30,7 +40,7 @@ body {
 
   /* background: 1) image 2) url() 3) repeat 4) position/size*/
   /* Atalho = shorthands = propriedades abreviadas.*/
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 ul {
@@ -63,7 +73,7 @@ header .button {
 }
 
 header .button:hover{
-  background-color: white;
+  background-color: var(--text-color);
   color: rgba(80, 226, 80, 0.911);
 }
 
@@ -73,6 +83,7 @@ header .logo {
 }
 
 #container {
+  height: 100vh;
   width: 36rem;
   margin: 2.1rem auto 0;
   padding: 0 2.4rem;
@@ -110,8 +121,8 @@ nav ul li a {
   align-items: center;
   justify-content: center;
   padding: 1.7rem 2rem;
-  background: rgba(255, 255, 255, 0.1);
-  border: 0.14rem solid rgba(255, 255, 255, 0.5);
+  background: var(--surface-color);
+  border: 0.14rem solid var(--stroke-color);
   border-radius: 0.8rem;
   backdrop-filter: blur(0.5rem);
   -webkit-backdrop-filter: blur(0.5rem);
@@ -121,7 +132,7 @@ nav ul li a {
 
 /* pseudo-selector */
 nav ul li a:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--surface-color-hover);
   border: 0.187rem solid var(--text-color);
 }
 

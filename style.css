@@ -14,7 +14,7 @@ html {
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --hightlight-color: rbga(255, 255, 255, 0.2);
+  --highlight-color: rgba(255, 255, 255, 0.2);
 }
 
 #light {
@@ -23,7 +23,7 @@ html {
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --hightlight-color: rbga(0, 0, 0, 0.1);
+  --highlight-color: rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -156,7 +156,7 @@ nav ul li a:hover {
 }
 
 .social a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--highlight-color);
   padding: 1.4rem;
 }
 

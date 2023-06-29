@@ -18,7 +18,7 @@ html {
   --switch-bg-url: url(./assets/moon-stars.svg)
 }
 
-#light {
+.light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
@@ -79,6 +79,16 @@ header .button:hover{
   color: rgba(80, 226, 80, 0.911);
 }
 
+.light header > .button {
+  color: white;
+  transition: all 0.2s;
+}
+
+.light header .logo {
+  font-weight: 800;
+  color: rgb(10, 51, 48);
+}
+
 header .logo {
   font-size: 2.7rem;
   font-weight: 700;
@@ -130,9 +140,10 @@ header .logo {
   position: absolute; 
   z-index: 1;
   transform: translateY(-50%);
+  transition: background 0.3s;
 }
 
-.light switch button {
+.light #switch button {
   right: 0;
   left: initial;
 }

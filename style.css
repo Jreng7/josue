@@ -29,7 +29,6 @@ html {
 }
 
 body {
-  height: 100vh;
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem; /* All body has 16px */
   color: var(--text-color);
@@ -95,7 +94,6 @@ header .logo {
 }
 
 #container {
-  height: 100vh;
   width: 36rem;
   margin: 2.1rem auto 0;
   padding: 0 2.4rem;
